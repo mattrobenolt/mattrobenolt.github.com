@@ -1,0 +1,11 @@
+---
+layout: default
+bodyclass: post
+---
+<section id="meat" class="post">
+    {{ content }}
+
+    {% for tag in page.tags %}
+        #{{ tag }}
+    {% endfor %}
+</section>
