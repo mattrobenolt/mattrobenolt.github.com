@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Making shit is hard.
+comments: true
 ---
 
 # {{ page.title }}

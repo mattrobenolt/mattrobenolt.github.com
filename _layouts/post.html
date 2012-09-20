@@ -5,7 +5,16 @@ bodyclass: post
 <section id="meat" class="post">
     {{ content }}
 
-    {% for tag in page.tags %}
-        #{{ tag }}
-    {% endfor %}
+{% if page.comments %}
+    <div id="disqus_thread" style="margin-top:50px"></div>
+        <script>
+            (function(d) {
+                var dsq = d.createElement('script'); dsq.async = true;
+                dsq.src = 'http://mattrobenolt.disqus.com/embed.js';
+                (d.getElementsByTagName('head')[0] || d.getElementsByTagName('body')[0]).appendChild(dsq);
+            })(document);
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+{% endif %}
 </section>
