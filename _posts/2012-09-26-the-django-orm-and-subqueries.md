@@ -1,6 +1,7 @@
 ---
 layout: post
 title: The Django ORM & Subqueries
+tags: django
 comments: true
 ---
 
