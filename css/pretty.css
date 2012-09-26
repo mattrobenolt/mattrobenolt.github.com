@@ -99,6 +99,7 @@ section.post h1, section.post h2 {
 
 section.post h1 {
     font-size: 2em;
+    line-height: 1;
 }
 
 section.post h2 {
