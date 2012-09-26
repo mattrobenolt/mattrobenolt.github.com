@@ -1,0 +1,27 @@
+---
+layout: nil
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>Matt Robenolt</title>
+ <link href="http://mattrobenolt.com/atom_django.xml" rel="self"/>
+ <link href="http://mattrobenolt.com/"/>
+ <updated>{{ site.time | date_to_xmlschema }}</updated>
+ <id>http://mattrobenolt.com/</id>
+ <author>
+   <name>Matt Robenolt</name>
+   <email>matt@ydekproductions.com</email>
+ </author>
+
+ {% for post in site.tags.django %}
+ <entry>
+   <title>{{ post.title }}</title>
+   <link href="http://mattrobenolt.com{{ post.url }}"/>
+   <updated>{{ post.date | date_to_xmlschema }}</updated>
+   <id>http://mattrobenolt.com{{ post.id }}</id>
+   <content type="html">{{ post.content | xml_escape }}</content>
+ </entry>
+ {% endfor %}
+ 
+</feed>
