@@ -22,7 +22,7 @@ Then I realized what I had to do to get this Passbook file which exposes some re
 
 The link that Amex posted is just a form, that asks simply for first name, last name, email address, credit card number, and CID. All information that anyone who has ever touched my physical card had access to.
 
-You enter in the information, and you're giving a `.pkpass` file, which is really just a fancy name for a `zip` file. Extract it, and inside you'll fine a `pass.json` file, which looks something like this:
+You enter in the information, and you're giving a `.pkpass` file, which is really just a fancy name for a `zip` file. Extract it, and inside you'll find a `pass.json` file, which looks something like this:
 
 {% highlight javascript %}
 {
@@ -57,4 +57,4 @@ You enter in the information, and you're giving a `.pkpass` file, which is reall
 
 And last, from my understanding of how Passbook works, is that new transactions are pushed to my device. So any future transactions will be updated in semi-realtime.
 
-American Express, this is awesome and all, but *PLEASE* secure this page inside my account page after I've logged in, it add it to your iOS apps directly.
+American Express, this is awesome and all, but *PLEASE* secure this page inside my account page after I've logged in, or add it to your iOS apps directly.
