@@ -59,7 +59,7 @@ header h1 a:hover {
     border: 0;
     color: #333;
 }
-#meat { 
+.meat { 
     width: 420px;
     float: left;
     position: relative;
@@ -92,7 +92,7 @@ footer {
     color: #aaa;
 }
 
-section.post h1, section.post h2 {
+section.post h1, section.post h2, h3, h4 {
     font-family: "Patua One", serif;
     font-weight: normal;
 }
@@ -106,6 +106,19 @@ section.post h2 {
     font-size: 1.5em;
     line-height: 1.2em;
     color: #333;
+}
+
+h3, h4 {
+    color: #333;
+}
+
+code {
+    background: #fff;
+    padding: 4px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
 }
 
 
@@ -131,7 +144,7 @@ section.post h2 {
 /* Syntax highlighting */
 
 .highlight {
-    background: #ffffff;
+    background: #fff;
   -webkit-border-radius: 10px;
           border-radius: 10px; 
   -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
@@ -149,7 +162,7 @@ section.post h2 {
     width: 800px;
 }
 .highlight pre { margin: 0; }
-.highlight code { font-family: Monaco, Courier, monospace; }
+.highlight code { font-family: Monaco, Courier, monospace; background: none; border: none; }
 .highlight .c { color: #999988; font-style: italic } /* Comment */
 .highlight .err { color: #a61717; background-color: #e3d2d2 } /* Error */
 .highlight .k { font-weight: bold } /* Keyword */
