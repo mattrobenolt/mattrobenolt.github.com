@@ -3,8 +3,8 @@ layout: nil
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
- 
- <title>Matt Robenolt</title>
+
+ <title>Matt Robenolt (Django)</title>
  <link href="http://mattrobenolt.com/atom_django.xml" rel="self"/>
  <link href="http://mattrobenolt.com/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
@@ -23,5 +23,5 @@ layout: nil
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
  {% endfor %}
- 
+
 </feed>
