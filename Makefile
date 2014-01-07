@@ -1,4 +1,4 @@
 run:
-	jekyll --server --auto
+	jekyll serve --watch --drafts
 
 .PHONY: run
