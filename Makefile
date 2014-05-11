@@ -1,4 +1,7 @@
-run:
-	jekyll serve --watch --drafts
+setup:
+	bundle install
 
-.PHONY: run
+run:
+	bundle exec jekyll serve --watch --drafts
+
+.PHONY: setup run
