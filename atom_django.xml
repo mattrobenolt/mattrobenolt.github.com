@@ -5,10 +5,10 @@ layout: nil
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>Matt Robenolt (Django)</title>
- <link href="http://mattrobenolt.com/atom_django.xml" rel="self"/>
- <link href="http://mattrobenolt.com/"/>
+ <link href="https://mattrobenolt.com/atom_django.xml" rel="self"/>
+ <link href="https://mattrobenolt.com/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://mattrobenolt.com/</id>
+ <id>https://mattrobenolt.com/</id>
  <author>
    <name>Matt Robenolt</name>
    <email>m@robenolt.com</email>
@@ -17,9 +17,9 @@ layout: nil
  {% for post in site.tags.django %}
  <entry>
    <title>{{ post.title }}</title>
-   <link href="http://mattrobenolt.com{{ post.url }}"/>
+   <link href="https://mattrobenolt.com{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>http://mattrobenolt.com{{ post.id }}</id>
+   <id>https://mattrobenolt.com{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
  {% endfor %}
