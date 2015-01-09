@@ -17,4 +17,4 @@ This blog is currently being built with [Jekyll](https://github.com/mojombo/jeky
 
 Hopefully this won't be as hard as I've convinced myself it would be.
 
-![](http://i0.kym-cdn.com/entries/icons/original/000/008/342/IHNIWIAD.jpg)
+![](https://i.imgur.com/RJ4fdKS.jpg)

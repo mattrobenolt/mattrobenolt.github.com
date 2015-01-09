@@ -9,14 +9,14 @@ comments: true
 This morning, American Express announced that you are able to bring in your card into Passbook for iOS6 via Twitter.
 
 <blockquote class="twitter-tweet"><p>Upgrading to <a href="https://twitter.com/search/%23iOS6">#iOS6</a>? Add our Apple <a href="https://twitter.com/search/%23Passbook">#Passbook</a> Pass using Safari for auto acct notifications + more <a href="http://t.co/fzXm5QkX" title="http://aexp.co/vn0">aexp.co/vn0</a> <a href="http://t.co/jNu3XXHV" title="http://bit.ly/Uy5MmR">bit.ly/Uy5MmR</a></p>&mdash; American Express (@AmericanExpress) <a href="https://twitter.com/AmericanExpress/status/251662955488374785" data-datetime="2012-09-28T12:41:38+00:00">September 28, 2012</a></blockquote>
-<script src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<script src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Immediately, I try it out. Awesome.
 
 I open up Passbook, and see my balance and a list of recent transactions. Awesome again.
 
-![](http://i.imgur.com/U7jMm.png)
-![](http://i.imgur.com/wWnac.png)
+![](https://i.imgur.com/U7jMm.png)
+![](https://i.imgur.com/wWnac.png)
 
 Then I realized what I had to do to get this Passbook file which exposes some relatively sensitive account information.
 
