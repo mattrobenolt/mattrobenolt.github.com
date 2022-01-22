@@ -8,3 +8,5 @@ intercom.io
 *.intercomcdn.com
 *.livechatinc.com
 sentry.io##.entries > div[data-test-id="loaded-event-cause-empty"]
+tsdtocl.com
+*.tsdtocl.com
